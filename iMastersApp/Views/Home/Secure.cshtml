@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Logon efetuado com sucesso.";
+}
+<h2>@ViewData["Title"]</h2>
+
+<h3>Claims autorizadas pelo usuário</h3>
+
+<dl>
+    @foreach (var claim in User.Claims)
+    {
+        <dt>@claim.Type</dt>
+        <dd>@claim.Value</dd>
+    }
+</dl>

@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{C53B2BE3-EAA3-412C-ADE9-B82FCE1753C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iMastersApp", "iMastersApp\iMastersApp.csproj", "{78343412-9AA1-401F-BD07-F47AE2759670}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C53B2BE3-EAA3-412C-ADE9-B82FCE1753C3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C53B2BE3-EAA3-412C-ADE9-B82FCE1753C3}.Debug|x86.Build.0 = Debug|Any CPU
+		{C53B2BE3-EAA3-412C-ADE9-B82FCE1753C3}.Release|x86.ActiveCfg = Release|Any CPU
+		{C53B2BE3-EAA3-412C-ADE9-B82FCE1753C3}.Release|x86.Build.0 = Release|Any CPU
+		{78343412-9AA1-401F-BD07-F47AE2759670}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{78343412-9AA1-401F-BD07-F47AE2759670}.Debug|x86.Build.0 = Debug|Any CPU
+		{78343412-9AA1-401F-BD07-F47AE2759670}.Release|x86.ActiveCfg = Release|Any CPU
+		{78343412-9AA1-401F-BD07-F47AE2759670}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
